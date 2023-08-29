@@ -31,7 +31,7 @@ There are a ton of CTFs with many different focuses. I tried my hand at the Reco
 
 Us cloudsec folks didn't really cross paths except for lunch on Friday and Saturday. If you want to see people from work, coordiation is hard. I'd recommend either planning lunch or dinner all together for a couple days, or just expecting not to see each other.
 
-Lastly, now that DefCon is over, there's now 2LineCon, as in the two lines that show for a positive COVID test, for all the people who caught COVID at the convention. There aren't too many mitigations for disease in place, most people aren't masking, and the little C02 monitor I carried around (C02 being a useful proxy for air recirculation) fluctuated from 1500 PPM to 2500 PPM depending on where I was, which means air circulation isn't great. There are 30k people coming from all over the world to this convention. Either expect to be sick after the convention, or wear a mask.
+Lastly, now that DefCon is over, there's now 2LineCon, as in the two lines that show for a positive COVID test, for all the people who caught COVID at the convention. There aren't too many mitigations for disease in place, most people aren't masking, and the little C02 monitor I carried around (C02 being a useful proxy for air recirculation) fluctuated from 1500 PPM to 2500 PPM depending on where I was, which means air circulation isn't great. There are 30k people coming from all over the world to this convention. Either expect to be sick after the convention, or take precautions.
 
 So, here are my takeaways:
 
