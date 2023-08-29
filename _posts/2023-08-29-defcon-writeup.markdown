@@ -5,7 +5,7 @@ date:   2023-08-29 12:41:18 -0500
 categories: jekyll update
 ---
 
-DefCon is the largest hacker meetup in the world. It happens every year in Las Vegas in the first couple weeks of August. I was lucky enough to have WalMart send me for work this year, and
+DefCon is the largest hacker meetup in the world. It happens every year in Las Vegas in the first couple weeks of August. I was lucky enough to have my job send me for work this year for the first time, and it was a really interesting experience.
 
 Before the trip, I wanted to be prepared and have all the equipment I'd need while I was there. I didn't want any trouble with accidentally leaking any credentials, so I created a new email address and got a tracfone phone and phone number just for the conference. I still brought my regular phone in case of emergency, I just left it turned off in my hotel most of the time. I also picked up a used chromebook off Craigslist to do all the CTFs and labs I wanted to do, which worked out pretty well, for the most part. It was an i5 with 8 gigs of memory, and it was capable of running a Linux container and giving me a shell to do whatever I wanted in that container. It was a bit tricky to set up the container-in-container configuration so I could run podman within the ChromeOS-provided LXC container, but eventually I got that working during the conference. Prior to the conference, I made sure all my devices were up to date, that they weren't creating any unencrypted http traffic, and that wifi and bluetooth were turned off, just as safety precautions. I also brought a Flipper, hoping that I could learn a few things, but the only thing I ended up doing with it was cloning my room key.
 
