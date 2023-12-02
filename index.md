@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Just a random collection of thoughts
+Just a random collection of thoughts.
