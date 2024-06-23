@@ -2,7 +2,7 @@
 layout: post
 title:  "DefCon Wrap up and thoughts"
 date:   2023-08-29 12:41:18 -0500
-categories: jekyll update
+categories: conference
 ---
 
 DefCon is the largest hacker meetup in the world. It happens every year in Las Vegas in the first couple weeks of August. I was lucky enough to have my employer sent me for work this year for the first time, and it was a really interesting experience.
