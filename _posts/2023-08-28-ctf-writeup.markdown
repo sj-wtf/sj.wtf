@@ -2,7 +2,7 @@
 layout: post
 title:  "DefCon Cloud Village CTF Writeup"
 date:   2023-08-28 12:41:18 -0500
-categories: jekyll update
+categories: conference ctf
 ---
 
 This is a write up of the DEFCON 31 Cloud Village CTF.
