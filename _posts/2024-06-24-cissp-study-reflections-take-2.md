@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CISSP Study Reflections Take 2"
-date:   2024-06-24 12:00:00 -0500
+date:   2024-06-23 00:00:00 -0500
 categories: certs
 ---
 Another post about taking my CISSP! I've learned some lessons about myself and what I need to do to get certifications. Primarily, I now know that I will avoid spending money, even if it's not my money, to my own detriment. The main reason I haven't yet taken my exam is because I put off buying an exam voucher over and over. I've read the entire ISC2 CISSP book for the current version of the exam several times over, but every time I get to the end, I tell myself "let's wait for a better time to spend that money".
