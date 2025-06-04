@@ -55,6 +55,8 @@ There were also some DNS challenges that let me use some of the tooling I saw in
 podman run --mount type=bind,source=/home/asdf/output,target=/root/.bbot/scans/ -it blacklanternsecurity/bbot -t bsides312.org -om json -p subdomain-enum
 ```
 
+But no dice with the axfr.
+
 One of the gripes I have about this tool is that the actual scan output is always sent to a file rather than to stdout. The docs say that the json output module (specified here with `--om json`) is supposed to output to stdout by default. It doesn't. So mapping a directory in is pretty much the only way to get the contents of the scan, and that's not included in their docker instructions. Oh well. The contents of a scan contain documents that look like this:
 
 ```
