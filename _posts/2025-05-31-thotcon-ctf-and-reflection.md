@@ -52,12 +52,20 @@ Unfortunately I didn't save output, so I can't show you responses. One CTF chall
 There were also some DNS challenges that let me use some of the tooling I saw in the registrar takeover talk I saw. I don't think those tools actually solved any of the challenges, but it was fun to play around with them. This particular toolchain was bbot from Black Lantern Security. I hadn't come across it before, but it seems like more of like a tool orchestration tool, something that will follow stuff in common fields on your behalf. Before we get into that, I kind of expected one of the answers about how to enumerate DNS would be to AXFR the contents of some zone, like so:
 
 ```
-podman run --mount type=bind,source=/home/asdf/output,target=/root/.bbot/scans/ -it blacklanternsecurity/bbot -t bsides312.org -om json -p subdomain-enum
+dig axfr bsides312.org @54.203.105.0
 ```
 
 But no dice with the axfr.
 
-One of the gripes I have about this tool is that the actual scan output is always sent to a file rather than to stdout. The docs say that the json output module (specified here with `--om json`) is supposed to output to stdout by default. It doesn't. So mapping a directory in is pretty much the only way to get the contents of the scan, and that's not included in their docker instructions. Oh well. The contents of a scan contain documents that look like this:
+One of the gripes I have about this tool is that the actual scan output is always sent to a file rather than to stdout. The docs say that the json output module (specified here with `--om json`) is supposed to output to stdout by default. It doesn't. So mapping a directory in is pretty much the only way to get the contents of the scan, and that's not included in their docker instructions. Oh well.
+
+To scan, do this:
+
+```
+podman run --mount type=bind,source=/home/asdf/output,target=/root/.bbot/scans/ -it blacklanternsecurity/bbot -t bsides312.org -om json -p subdomain-enum
+```
+
+The contents of a scan contain documents that look like this:
 
 ```
 {
