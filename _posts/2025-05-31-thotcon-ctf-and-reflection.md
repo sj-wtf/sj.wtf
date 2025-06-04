@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "THOTCON in review"
-date:   2025-05-31 00:00:00 -0500
+date:   2025-06-04 00:00:00 -0500
 categories: conference ctf
 ---
 After being laid off by a previous employer, I decided as a way to relax, I'd try out another hacker conference. I went to DEFCON a few years ago in Vegas, and discovered that actually, I don't like Vegas very much. I did enjoy all the activities and things to see at the conference, but Vegas in August is incredibly hot, it's expensive year round, it's crazy crowded (and not in a fun way), and the decades of smokers in casinos have left their permanent mark in a way that won't ever go away, everywhere smells like garbage. I figured a smaller conference would be a lot of fun, but if it was too small, it would stop being fun again. So, I figured, the biggest city in the midwest would be a good choice!
@@ -128,4 +128,4 @@ The first talk of the convention at BSides was about community, and having each 
 
 There were some really interesting talks about stuff I was familiar with, and even more talks about things I wasn't. The only Cloud talk introduced me to a few tools. [AWSPX](https://github.com/ReversecLabs/awspx) is a visual tool for exploring various aspects of your cloud environment, and [cartography](https://github.com/cartography-cncf/cartography) is the Neo4j graph cloud data ingestion tool that sounded cool every time I thought about personal projects to work on. I look forward to trying them both out in the future.
 
-Through all this, I met some really great people who are incredibly smart, curious, and fun to be around. The OPers worked so hard to put on a great event (both were a ton of fun), the speakers put together talks that were incredible, the villages covered a lot of the classic bases, but also included some really unique stuff. Special shout out to the Eggsassin, you're good company and I hope to see you again!
+Through all this, I met some really great people who are incredibly smart, curious, and fun to be around. The OPers worked so hard to put on a great event (both were a ton of fun), the speakers put together talks that were incredible, the villages covered a lot of the classic bases, but also included some really unique stuff. Special shout out to the Eggsassin, you're good company and I hope to see you again soon!
